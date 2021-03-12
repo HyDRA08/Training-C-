@@ -1,0 +1,68 @@
+﻿@model QBKartMVCApp.Models.ViewModel.ProductsViewModel
+
+@{
+    ViewData["Title"] = "Add / Edit";
+}
+<link href="~/css/index.css" rel="stylesheet" />
+
+@using (Html.BeginForm("Add", "HomeController", FormMethod.Post))
+{
+    <table>
+        <tr style="background-color:chartreuse;">
+            <td>Enter Product Code</td>
+            <td>@Html.TextBoxFor(prod => prod.ProductCode)</td>
+        </tr>
+        <tr>
+            <td>Enter Product Name</td>
+            <td>@Html.TextBoxFor(prod => prod.ProdcuctName)</td>
+        </tr>
+        <tr style="background-color:chartreuse;">
+            <td>Enter Product Description</td>
+            <td>@Html.TextAreaFor((prod => prod.ProductDesc))</td>
+        </tr>
+        <tr>
+            <td>Enter the Price</td>
+            <td>@Html.TextBoxFor(prod => prod.ProductPrice)</td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Add" asp-action="AddValue"/></td>
+            <td><input type="submit" value="Update" asp-action="EditValue" /></td>
+        </tr>
+    </table>
+}
+
+@*<script type="text/javascript">
+    alert(@ViewBag.Message);
+</script>*@
+
+@*<form asp-controller="Home" asp-action="Add">
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="2">Add</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label>Enter Product Code</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter the Product Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter the Product Description</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter the Status</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Add"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>*@

@@ -1,0 +1,17 @@
+﻿table {
+    width: 50%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+tr:nth-child(even) {
+    background-color: #CCC;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+thead {
+    background-color: red;
+}

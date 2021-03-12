@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="11a37a42bebb45149d9c99b840d6ee0c" Name="Diagram1">
+        <EntityTypeShape EntityType="Trainee1334Model.Appointment" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Trainee1334Model.Department" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Trainee1334Model.Employee" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Trainee1334Model.Holiday" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Trainee1334Model.Slot" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="Trainee1334Model.FK__Appointme__EmpID__634EBE90" ManuallyRouted="false" />
+        <AssociationConnector Association="Trainee1334Model.FK__Appointmen__HRID__6442E2C9" ManuallyRouted="false" />
+        <AssociationConnector Association="Trainee1334Model.FK__Employee__DeptID__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="Trainee1334Model.FK__Employee__DeptID__2BFE89A6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

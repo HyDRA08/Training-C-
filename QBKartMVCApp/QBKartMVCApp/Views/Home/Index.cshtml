@@ -1,0 +1,80 @@
+﻿@model IEnumerable<QBKartMVCApp.Models.ViewModel.ProductsViewModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <link rel="stylesheet" type="text/css" href="~/css/index.css">
+    <div class="limiter">
+        <ul style="color:aliceblue;">
+            <li id="nav"><a asp-action="Add">Add / Edit Product</a></li>
+        </ul>
+        <div class="container-table100">
+
+            <div class="wrap-table100">
+                <div class="table100">
+                    <table>
+                        <thead>
+                            <tr class="table100-head">
+                                <th class="column1">Product #</th>
+                                <th class="column2">Product Name</th>
+                                <th class="column3">Product Description</th>
+                                <th class="column4">Price</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="column1">@Html.DisplayFor(x => item.ProductCode)</td>
+                                    <td class="column2">@Html.DisplayFor(x => item.ProdcuctName)</td>
+                                    <td class="column3">@Html.DisplayFor(x => item.ProductDesc)</td>
+                                    <td class="column4">$@Html.DisplayFor(x => item.ProductPrice)</td>
+                                    <td>
+                                        @Html.ActionLink("Edit", "Edit", new { id = item.ProductId }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.ProductId })
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+@*<link href="~/css/index.css" rel="stylesheet" />
+    <input type="search" placeholder="Search" id="search" />
+    <input type="submit" value="Search">
+    <ul>
+        <li><a asp-action="Add">Add New Product</a></li>
+    </ul>
+    <form>
+        <table id="list_table">
+            <thead>
+                <td></td>
+                <td>Product #</td>
+                <td>Product Name</td>
+                <td>Product Description</td>
+                <td>Price</td>
+                </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>@Html.DisplayFor(x => item.ProductCode)</td>
+                        <td>@Html.DisplayFor(x => item.ProdcuctName)</td>
+                        <td>@Html.DisplayFor(x => item.ProductDesc)</td>
+                        <td>@Html.DisplayFor(x => item.ProductPrice)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </form>
+    <button id="disable">Disable</button>
+    <button id="delete">Delete</button>*@

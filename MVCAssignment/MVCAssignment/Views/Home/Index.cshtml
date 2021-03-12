@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MVCAssignment.Models.ViewModel.ProductsViewModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="limiter">
+    <ul style="color:aliceblue;">
+        <li id="nav"><a asp-action="Add">ADD</a></li>
+    </ul>
+    <div class="container-table100">
+        <div class="wrap-table100">
+            <div class="table100">
+                <table>
+                    <thead>
+                        <tr class="table100-head">
+                            <th class="column1">Product #</th>
+                            <th class="column2">Product Name</th>
+                            <th class="column3">Product Description</th>
+                            <th class="column4">Price</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="column1">@Html.DisplayFor(x => item.ProductCode)</td>
+                                <td class="column2">@Html.DisplayFor(x => item.ProdcuctName)</td>
+                                <td class="column3">@Html.DisplayFor(x => item.ProductDesc)</td>
+                                <td class="column4">$@Html.DisplayFor(x => item.ProductPrice)</td>
+                                <td>
+                                    @Html.ActionLink("Edit", "Edit", new { id = item.ProductId }) |
+                                    @Html.ActionLink("Delete", "Delete", new { id = item.ProductId })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

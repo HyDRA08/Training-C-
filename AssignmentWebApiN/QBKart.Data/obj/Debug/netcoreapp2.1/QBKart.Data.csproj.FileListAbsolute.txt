@@ -1,0 +1,24 @@
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Data.deps.json
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Data.dll
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Data.pdb
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Core.dll
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Core.pdb
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.csprojAssemblyReference.cache
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.csproj.CoreCompileInputs.cache
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.AssemblyInfoInputs.cache
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.AssemblyInfo.cs
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.csproj.CopyComplete
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.dll
+C:\Users\qbuser\source\repos\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.pdb
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Data.deps.json
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Data.dll
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Data.pdb
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Core.dll
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\bin\Debug\netcoreapp2.1\QBKart.Core.pdb
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.csprojAssemblyReference.cache
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.csproj.CoreCompileInputs.cache
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.AssemblyInfoInputs.cache
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.AssemblyInfo.cs
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.csproj.CopyComplete
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.dll
+E:\Virtual Folder\AssignmentWebApi\QBKart.Data\obj\Debug\netcoreapp2.1\QBKart.Data.pdb
